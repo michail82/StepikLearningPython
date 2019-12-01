@@ -15,3 +15,6 @@ print( type( 7.0 ) )
 a = 2
 a += 3
 print( a )
+print( (5 - 1) // 5 + 1 )
+print( 10 % 3 )
+print( 5 / 5 )

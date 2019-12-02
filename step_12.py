@@ -1,20 +1,21 @@
-a, z, b = float( input() ), (input()), float( input() )
+a, b, z = float(input()), float(input()), (input())
 if z == '+':
-    print( a + b )
+    print(a + b)
 elif z == '-':
-    print( a - b )
-elif z == '/' and b == 0:
-    print( 'Деление на 0!' )
+    print(a - b)
+elif z == '/' and b == 0 or z == 'mod' and b == 0 or z == 'div' and b == 0:
+    print('Деление на 0!')
 elif z == '/':
-    print( a / b )
+    print(a / b)
 elif z == '*':
-    print( a * b )
+    print(a * b)
 elif z == 'mod':
-    print( a % b )
+    print(a % b)
 elif z == 'pow':
-    print( a ** b )
+    print(a ** b)
 elif z == 'div':
-    print( a // b )
+    print(a // b)
+
 
 # Напишите простой калькулятор, который считывает с пользовательского ввода три строки:
 # первое число, второе число и операцию, после чего применяет операцию к введённым числам

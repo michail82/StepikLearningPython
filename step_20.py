@@ -1,6 +1,7 @@
 a, b, c, d = int(input()), int(input()), int(input()), int(input())
-for i in range(10):
+for a in range(10):
     for
+
 # n = int(input())
 # for i in range(n):
 #   print('* '*n)

@@ -1,14 +1,15 @@
-for i in range (5):
-    print (i*i)
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 
+for j in range(c, d + 1):
+    print("\t", j, end="", )
 
-# for i in 2,3,5:
-#     print (i*i)
-
-# a, b, c, d = int(input()), int(input()), int(input()), int(input())
-# for i in a:
-#     print (a)
-#     print()
-
+for i in range(a, b + 1):
+    print()
+    print(i, end="\t")
+    for j in range(c, d + 1):
+        print(i * j, end="\t")
 
 
